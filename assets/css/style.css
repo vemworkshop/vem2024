@@ -1260,16 +1260,10 @@ section {
 /*--------------------------------------------------------------
 # Map
 --------------------------------------------------------------*/
-.leaflet-map {
-    width: 100%;
-    height: 600px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
 
 #map {
     height: 50vh;
     width: 60%;
     margin: 0 auto; /* Center the map horizontally */
+    z-index: 10;
 }
